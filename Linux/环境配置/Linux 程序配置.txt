@@ -1,0 +1,33 @@
+
+#set java environment
+JAVA_HOME=/usr/java/jdk1.7.0_25
+CLASSPATH=.:$JAVA_HOME/lib.tools.jar:$JAVA_HOME/lib.dt.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+
+export CATALINA_HOME=/home/ak/pro_file/tomcat
+export CATALINA_BASE=/home/ak/pro_file/tomcat
+
+ANT_HOME=/opt/ant/apache-ant-1.9.4
+PATH=$ANT_HOME/bin:$PATH
+export ANT_HOME PATH
+
+NUTCH_JAVA_HOME=/usr/java/jdk1.7.0_25
+export NUTCH_JAVA_HOME
+
+
+#set java environment
+JAVA_HOME=/usr/java/jdk1.7.0_25
+CLASSPATH=.:$JAVA_HOME/lib.tools.jar:$JAVA_HOME/lib.dt.jar
+PATH=$JAVA_HOME/bin:$PATH
+export JAVA_HOME CLASSPATH PATH
+
+export CATALINA_HOME=/home/ak/pro_file/tomcat
+export CATALINA_BASE=/home/ak/pro_file/tomcat
+
+ANT_HOME=/opt/ant/apache-ant-1.9.4
+PATH=$ANT_HOME/bin:$PATH
+export ANT_HOME PATH
+
+NUTCH_JAVA_HOME=/usr/java/jdk1.7.0_25
+export NUTCH_JAVA_HOME
