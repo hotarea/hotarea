@@ -1,0 +1,38 @@
+Windows 环境变量配置
+
+ANT_HOME		D:\path\apache-ant-1.9.4
+ANT_OPTS		-Xmx1024m -XX:MaxPermSize=512m  -Dhttp.proxyHost=127.0.0.1 -Dhttp.proxyPort=8087
+
+CATALINA_BASE		D:\programs\apache-tomcat-7.0.53-windows-x64\apache-tomcat-7.0.53
+CATALINA_HOME		D:\programs\apache-tomcat-7.0.53-windows-x64\apache-tomcat-7.0.53
+
+CLASSPATH		.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;%CATALINA_HOME%\lib;%CATALINA_HOME%\bin
+JAVA_HOME		C:\Java\jdk1.7.0_25
+
+ANDROID_SDK_HOME	D:\programs\android\adt-bundle-windows-x86_64-20131030\sdk
+
+Path			%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
+			D:\Program Files\TortoiseGit\bin;
+			D:\Program Files\Sublime Text Build 3047 x64;
+			C:\Program Files\Microsoft\Web Platform Installer\;
+			C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;
+			C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;
+			C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;
+			C:\Program Files (x86)\Microsoft SDKs\TypeScript\;
+			D:\Matlab7\bin\win32;D:\Program Files (x86)\VisualSVN Server\bin;
+			D:\Program Files\TortoiseSVN\bin;
+			
+			.;%ANDROID_SDK_HOME%\platform-tools;
+			%ANDROID_SDK_HOME%\tools; 
+
+			.;%JAVA_HOME%\bin;
+			%JAVA_HOME%\jre\bin;
+
+			%ANT_HOME%/bin;
+			%ANT_HOME%/lib;
+
+			D:\Matlab7\bin\win32;
+			D:\Program Files (x86)\VisualSVN Server\bin;
+			D:\Program Files\TortoiseSVN\bin;
+
+			C:\cygwin64\bin
